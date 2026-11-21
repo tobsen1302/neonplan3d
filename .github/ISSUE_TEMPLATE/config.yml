@@ -1,17 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 💡 Ideas and wishes (not as an issue) / Ideen und Wünsche (nicht als Issue)
-    url: https://github.com/Mastershort/neonplan3d/discussions/categories/ideas
-    about: Feature wishes go here, not into issues – vote with 👍 on what you want most. / Wünsche bitte hier statt als Issue – und mit 👍 abstimmen.
-  - name: 💬 Discord community
-    url: https://discord.gg/SSdVVFsev7
-    about: Chat, show your 3D home and help each other. / Austausch, dein 3D-Zuhause zeigen, gegenseitig helfen.
+  - name: 💡 Ideas and wishes / Ideen und Wünsche
+    url: https://github.com/tobsen1302/neonplan3d/discussions/categories/ideas
+    about: Feature wishes go here, not into issues. / Wünsche bitte hier statt als Issue.
   - name: 💬 Questions & help / Fragen & Hilfe
-    url: https://github.com/Mastershort/neonplan3d/discussions/categories/q-a
-    about: How do I …? Ask the community. / Wie mache ich …? Frag die Community.
-  - name: 📖 Manual / Anleitung
+    url: https://github.com/tobsen1302/neonplan3d/discussions/categories/q-a
+    about: How do I …? / Wie mache ich …?
+  - name: 📖 Manual of the original project / Anleitung des Originalprojekts
     url: https://mastershort.de/neonplan3d/anleitung/
-    about: The full manual in German and English. / Die komplette Anleitung auf Deutsch und Englisch.
-  - name: 🛒 Shop, licence, packs / Shop, Lizenz, Packs
-    url: https://mastershort.de/neonplan3d/
-    about: Questions about purchases and licence keys go to the shop, not here. / Fragen zu Käufen und Lizenzschlüsseln bitte über den Shop.
+    about: The manual of NeonPlan 3D by Mastershort, still valid for this fork. / Die Anleitung von NeonPlan 3D (Mastershort), gilt auch für diesen Fork.

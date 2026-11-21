@@ -114,8 +114,14 @@ export function manualUrl(lang: string | undefined, topic?: Feature | "extension
   return `${base}${page}?lang=${de ? "de" : "en"}${anchor ? `#${anchor}` : ""}`;
 }
 
+/**
+ * Fork (tobsen1302/neonplan3d): Pro add-ons whose code is all in the integration and that this fork includes for
+ * everyone, without a pack. Household Pro: bins with pickup tags, post in the mailbox, thirsty plants, appliance time left.
+ */
+export const FORK_INCLUDED: readonly Feature[] = ["household"];
+
 export function unlockedFeatures(packs: readonly { features?: string[] }[] = getPacks()): Set<Feature> {
-  const out = new Set<Feature>();
+  const out = new Set<Feature>(FORK_INCLUDED);
   for (const p of packs) for (const f of p.features ?? []) if (knownFeature(f)) out.add(f as Feature);
   return out;
 }

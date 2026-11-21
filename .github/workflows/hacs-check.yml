@@ -4,9 +4,9 @@
 # (hacs/integration#5643) and we only learned it from an issue the next morning.
 name: HACS download check
 
+# In the fork it runs on demand only (Actions → HACS download check → Run workflow); switch the schedule
+# back on once the fork publishes releases.
 on:
-  schedule:
-    - cron: "41 */4 * * *"
   workflow_dispatch:
 
 jobs:

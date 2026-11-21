@@ -21,7 +21,7 @@ import urllib.request
 
 import aiohttp
 
-REPO = "Mastershort/neonplan3d"
+REPO = "tobsen1302/neonplan3d"
 ROOT = Path(__file__).resolve().parent.parent
 
 

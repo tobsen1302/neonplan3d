@@ -4,7 +4,7 @@
 
 NeonPlan 3D draws your home right inside Home Assistant and shows it as a 3D model in a neon look. Lights glow in their colours, blinds move, windows tilt, doors swing open, cameras look into the room and the TV shows what is playing. Everything runs locally in Home Assistant, without a cloud or external programs, and it is built for wall tablets.
 
-This manual describes every feature of the current version. What changed in which version is in the [changelog](../CHANGELOG.md) and on the [releases page](https://github.com/Mastershort/neonplan3d/releases). The pictures come from the demo with invented data. The app follows the language of your Home Assistant user (profile → language); the labels below are the English ones. German and English are built in; French, Spanish, Dutch, Italian, Hungarian, Danish, Swedish, Norwegian (Bokmål and Nynorsk), Finnish, Czech, Polish, Romanian, Slovenian, Slovak, Portuguese, Turkish and Chinese (Simplified) are fetched when needed, so the bundles stay small for wall tablets. A text missing in a language shows in English.
+This manual describes every feature of the current version. What changed in which version is in the [changelog](../CHANGELOG.md) and on the [releases page](https://github.com/tobsen1302/neonplan3d/releases). The pictures come from the demo with invented data. The app follows the language of your Home Assistant user (profile → language); the labels below are the English ones. German and English are built in; French, Spanish, Dutch, Italian, Hungarian, Danish, Swedish, Norwegian (Bokmål and Nynorsk), Finnish, Czech, Polish, Romanian, Slovenian, Slovak, Portuguese, Turkish and Chinese (Simplified) are fetched when needed, so the bundles stay small for wall tablets. A text missing in a language shows in English.
 
 ![The house in the 3D view](images/view-house.jpg)
 
@@ -37,7 +37,7 @@ This manual describes every feature of the current version. What changed in whic
 
 ### With the Marketplace
 
-[![Open your Home Assistant instance and open the NeonPlan 3D repository in the Marketplace.](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=Mastershort&repository=neonplan3d&category=integration)
+[![Open your Home Assistant instance and open the NeonPlan 3D repository in the Marketplace.](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=tobsen1302&repository=neonplan3d&category=integration)
 
 Since Home Assistant 2026.11, HACS is built in as the **Marketplace**. The button opens NeonPlan 3D straight in the Marketplace of your installation. NeonPlan 3D is in the official list, no need to add it from a link. By hand:
 
@@ -49,7 +49,7 @@ Since Home Assistant 2026.11, HACS is built in as the **Marketplace**. The butto
 
 **NeonPlan 3D** now appears in the sidebar. The dashboard card is available right away, no resource needed.
 
-**Home Assistant before 2026.11:** it works the same with **HACS**: open HACS, search for **NeonPlan 3D**, download it and restart, or [open it straight in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=Mastershort&repository=neonplan3d&category=integration).
+**Home Assistant before 2026.11:** it works the same with **HACS**: open HACS, search for **NeonPlan 3D**, download it and restart, or [open it straight in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=tobsen1302&repository=neonplan3d&category=integration).
 
 If you installed NeonPlan 3D with HACS before, also as a custom repository, there is nothing to do: when you update to Home Assistant 2026.11 the Marketplace takes it over, and updates keep coming as usual.
 
@@ -1634,7 +1634,7 @@ Under **Backup** in the editor:
 
 Home Assistant's own backup includes NeonPlan 3D completely as well.
 
-**From other programs:** the **import page** (<https://neonplan3d.mastershort.de/import/>, also under **Backup → To the import page**) turns plans of other programs into a NeonPlan file: Sweet Home 3D (`.sh3d`), iPhone/iPad LiDAR scans (RoomPlan JSON), CAD drawings (`.dxf`), 3D models from Blender, SketchUp & co. (`.glb`, `.gltf`, `.obj`, `.stl`), Floorplanner and Valetudo robot vacuum maps. It shows a preview with rooms, doors, windows and furniture, lets you rename rooms and, depending on the format, set the unit, the layers or the floor levels; the file stays on your computer. Load the downloaded file here with **Import …**. If you would rather let an AI write the plan, the template is in [docs/ai-import.md](https://github.com/Mastershort/neonplan3d/blob/main/docs/ai-import.md); the import page checks and repairs the result.
+**From other programs:** the **import page** (<https://neonplan3d.mastershort.de/import/>, also under **Backup → To the import page**) turns plans of other programs into a NeonPlan file: Sweet Home 3D (`.sh3d`), iPhone/iPad LiDAR scans (RoomPlan JSON), CAD drawings (`.dxf`), 3D models from Blender, SketchUp & co. (`.glb`, `.gltf`, `.obj`, `.stl`), Floorplanner and Valetudo robot vacuum maps. It shows a preview with rooms, doors, windows and furniture, lets you rename rooms and, depending on the format, set the unit, the layers or the floor levels; the file stays on your computer. Load the downloaded file here with **Import …**. If you would rather let an AI write the plan, the template is in [docs/ai-import.md](https://github.com/tobsen1302/neonplan3d/blob/main/docs/ai-import.md); the import page checks and repairs the result.
 
 ---
 
@@ -1654,7 +1654,7 @@ Home Assistant's own backup includes NeonPlan 3D completely as well.
 
 ## 12. FAQ and troubleshooting
 
-**Help and feedback:** report a bug as an [issue on GitHub](https://github.com/Mastershort/neonplan3d/issues/new/choose) and an idea as a [discussion](https://github.com/Mastershort/neonplan3d/discussions/categories/ideas). Nothing gets lost, everyone sees the state, and you are credited in the release notes once it is built. The two buttons for it are also at the bottom of the editor's sidebar and on the Extensions page.
+**Help and feedback:** report a bug as an [issue on GitHub](https://github.com/tobsen1302/neonplan3d/issues/new/choose) and an idea as a [discussion](https://github.com/tobsen1302/neonplan3d/discussions/categories/ideas). Nothing gets lost, everyone sees the state, and you are credited in the release notes once it is built. The two buttons for it are also at the bottom of the editor's sidebar and on the Extensions page.
 
 **How do I get the latest update?**
 Settings → System → Updates. The Marketplace only looks for new versions every few hours, so a fresh update may not show there yet; then look again a little later. With HACS (Home Assistant before 2026.11) it works right away: HACS → NeonPlan 3D → ⋮ → **Update information** → **Download**. Then restart Home Assistant and reload the page (Ctrl+F5; in the Companion app: Settings → Companion app → reset frontend cache).
@@ -1714,4 +1714,4 @@ That is intended: the big one is the **house balance** (Solar & Energy), the sma
 Installed packs and Pro add-ons keep working. Updates arrive as soon as the shop answers again.
 
 **Where do I report bugs?**
-In the issue tracker on GitHub: https://github.com/Mastershort/neonplan3d/issues
+In the issue tracker on GitHub: https://github.com/tobsen1302/neonplan3d/issues

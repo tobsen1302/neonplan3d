@@ -157,7 +157,7 @@ let lang = new URLSearchParams(location.search).get("lang") ?? ((navigator.langu
 const T = () => (lang === "de" ? DE : EN);
 const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 const fill = (s: string, v: Record<string, string | number | undefined>) => s.replace(/\{(\w+)\}/g, (_, k) => String(v[k] ?? ""));
-const REPO = "https://github.com/Mastershort/neonplan3d/blob/main/docs";
+const REPO = "https://github.com/tobsen1302/neonplan3d/blob/main/docs";
 
 interface State {
   name: string | null;
@@ -388,7 +388,7 @@ function render(): void {
           </section>`
         : ""
     }
-    <footer>${esc(t.privacy)} · <a href="https://github.com/Mastershort/neonplan3d" target="_blank" rel="noopener">GitHub</a></footer>`;
+    <footer>${esc(t.privacy)} · <a href="https://github.com/tobsen1302/neonplan3d" target="_blank" rel="noopener">GitHub</a></footer>`;
 }
 
 function download(): void {

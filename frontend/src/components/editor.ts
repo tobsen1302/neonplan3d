@@ -4500,8 +4500,8 @@ export class Fp3dEditor extends LitElement {
       <h3>${this.t("help_title")}</h3>
       <p class="fp3d-sub">${this.t("help_hint")}</p>
       <div class="fp3d-actions">
-        <a class="fp3d-btn" href="https://github.com/Mastershort/neonplan3d/issues/new/choose" target="_blank" rel="noopener">🐞 ${this.t("help_issue")}</a>
-        <a class="fp3d-btn" href="https://github.com/Mastershort/neonplan3d/discussions/categories/ideas" target="_blank" rel="noopener">💡 ${this.t("help_idea")}</a>
+        <a class="fp3d-btn" href="https://github.com/tobsen1302/neonplan3d/issues/new/choose" target="_blank" rel="noopener">🐞 ${this.t("help_issue")}</a>
+        <a class="fp3d-btn" href="https://github.com/tobsen1302/neonplan3d/discussions/categories/ideas" target="_blank" rel="noopener">💡 ${this.t("help_idea")}</a>
         <a class="fp3d-btn" href="https://discord.gg/SSdVVFsev7" target="_blank" rel="noopener">💬 ${this.t("help_discord")}</a>
       </div>
     </section>`;

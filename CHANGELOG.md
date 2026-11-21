@@ -1,8 +1,18 @@
 # Changelog
 
-All notable changes to NeonPlan 3D. The full notes in German and English are on the
-[releases page](https://github.com/Mastershort/neonplan3d/releases). Ideas and votes:
-[Discussions → Ideas](https://github.com/Mastershort/neonplan3d/discussions/categories/ideas).
+All notable changes to NeonPlan 3D. This is the fork [tobsen1302/neonplan3d](https://github.com/tobsen1302/neonplan3d);
+everything up to 4.0.0 comes from the original project by Mastershort, whose full notes are on its
+[releases page](https://github.com/Mastershort/neonplan3d/releases).
+
+## 4.0.1 (fork)
+
+The first release of the fork.
+
+### New (free in the fork)
+- **Household Pro included:** bins glow before their pickup and carry pickup tags, a mailbox glows while post lies in it, thirsty plants show themselves, appliances tell their time left, open fridge doors warn – and "Today in the household" lists it all. No pack or licence key needed.
+
+### Changed
+- The fork is its own project: links, issue tracker, code owner and documentation point to `tobsen1302/neonplan3d`. The original's shop check, Discord release post and donation link are gone from the workflows; the HACS download check runs on demand only.
 
 ## 4.0.0
 

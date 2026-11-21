@@ -1,17 +1,21 @@
+> [!NOTE]
+> **Fork / Abspaltung:** This repository is a fork of [NeonPlan 3D by Mastershort](https://github.com/Mastershort/neonplan3d), maintained by [@tobsen1302](https://github.com/tobsen1302). Issues and wishes for this fork go [here](https://github.com/tobsen1302/neonplan3d/issues). In this fork **Household Pro** (bins with pickup tags, post in the mailbox, thirsty plants, appliance time left) is included for free.<br>
+> Dieses Repository ist ein Fork von [NeonPlan 3D von Mastershort](https://github.com/Mastershort/neonplan3d), gepflegt von [@tobsen1302](https://github.com/tobsen1302). In diesem Fork ist **Haushalt Pro** (Tonnen mit Abholschildern, Post im Briefkasten, durstige Pflanzen, Restlaufzeit der Geräte) kostenlos enthalten.
+
 <div align="center">
 
 # NeonPlan 3D
 
-### The original 3D floor plan for Home Assistant
+### A fork of the original 3D floor plan for Home Assistant
 
 **Draw your home right inside Home Assistant – and live in it as a glowing neon house, or in any style you like.**<br>
 Lights glow in their colours, blinds move, doors open, cameras watch, energy flows through the walls – and you can simply talk to it.
 
-[![Open your Home Assistant instance and open the NeonPlan 3D repository in the Marketplace.](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=Mastershort&repository=neonplan3d&category=integration)
+[![Open your Home Assistant instance and open the NeonPlan 3D repository in the Marketplace.](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=tobsen1302&repository=neonplan3d&category=integration)
 
-[![Latest release](https://img.shields.io/github/v/release/Mastershort/neonplan3d?label=release&color=00e5ff)](https://github.com/Mastershort/neonplan3d/releases)
+[![Latest release](https://img.shields.io/github/v/release/tobsen1302/neonplan3d?label=release&color=00e5ff)](https://github.com/tobsen1302/neonplan3d/releases)
 [![Home Assistant Marketplace](https://img.shields.io/badge/Marketplace-default-41BDF5?logo=homeassistant&logoColor=white)](https://www.home-assistant.io/integrations/marketplace/)
-[![Free & open source](https://img.shields.io/badge/free-open%20source%20(MIT)-2ea44f)](https://github.com/Mastershort/neonplan3d/blob/main/LICENSE)
+[![Free & open source](https://img.shields.io/badge/free-open%20source%20(MIT)-2ea44f)](https://github.com/tobsen1302/neonplan3d/blob/main/LICENSE)
 [![Runs locally](https://img.shields.io/badge/cloud-none%20needed-8a2be2)](#privacy)
 [![Discord](https://img.shields.io/badge/Discord-community-5865F2?logo=discord&logoColor=white)](https://discord.gg/SSdVVFsev7)
 
@@ -21,7 +25,7 @@ Lights glow in their colours, blinds move, doors open, cameras watch, energy flo
 
 **Your home in every style – new in 3.1, free for everyone.**
 
-[![One house – many styles: the same house in Neon, Synthwave, Homely, Architect's model and Winter evening](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/styles-hero-en.jpg)](#-new-in-31--your-home-in-every-style)
+[![One house – many styles: the same house in Neon, Synthwave, Homely, Architect's model and Winter evening](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/styles-hero-en.jpg)](#-new-in-31--your-home-in-every-style)
 
 </div>
 
@@ -40,13 +44,13 @@ Lights glow in their colours, blinds move, doors open, cameras watch, energy flo
 
 > **No other floor plan for Home Assistant draws several houses and flats, shows single rooms on the dashboard and puts your whole property in 3D.** The original keeps leading. 😉
 
-[![NeonPlan 3D: the house turns with its solar roof and energy cards, voice control opens the living room, the doorbell rings and the live director looks through the front door camera](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/demo.webp)](https://neonplan3d.mastershort.de/)
+[![NeonPlan 3D: the house turns with its solar roof and energy cards, voice control opens the living room, the doorbell rings and the live director looks through the front door camera](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/demo.webp)](https://neonplan3d.mastershort.de/)
 
 ---
 
 ## 🪄 New in 3.4 – furniture that lives
 
-[![The same kitchen with its door contacts closed and open](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/live-furniture-hero-en.jpg)](https://github.com/Mastershort/neonplan3d/releases)
+[![The same kitchen with its door contacts closed and open](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/live-furniture-hero-en.jpg)](https://github.com/tobsen1302/neonplan3d/releases)
 
 - 🚪 **Doors, drawers and flaps move with Home Assistant** – open the fridge and its door opens in 3D, the oven door folds down, a drawer slides out. Status lights glow, fans turn, prints grow with their progress. Try it free with the kitchen and bedroom taster packs.
 - 🎨 **Finishes, free for everyone** – your own colours for wood, fabric and fronts of every piece of furniture in the homely styles.
@@ -74,7 +78,7 @@ Pick a style in the 3D view under **⚙ → 🎨**, build your own under **⚙ S
 
 Neon from afar, homely up close: pick a second style under **When zooming in** and the house flows into it as you come closer – just the room you zoom into, or every room. No reload, still fine on old wall tablets.
 
-[![Zooming into the living room: it turns homely while the kitchen next to it stays neon](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/zoom-style.webp)](docs/manual.md#512-styles-new-in-31)
+[![Zooming into the living room: it turns homely while the kitchen next to it stays neon](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/zoom-style.webp)](docs/manual.md#512-styles-new-in-31)
 
 ---
 
@@ -84,7 +88,7 @@ The wish you have sent us more than any other since NeonPlan started: **more tha
 
 | Your whole property in 3D | A card for a single room | All floor plans at a glance |
 |---|---|---|
-| [![The property: the house and the garden house, each with its own roof](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/plans-site-en.jpg)](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/plans-site-en.jpg) | [![A dashboard card for the kids' room only, its lights beside it](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/card-room-one-en.jpg)](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/card-room-one-en.jpg) | [![A tile per floor plan with lights, open windows, warmth and a water warning in the garden house](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/plans-overview-en.jpg)](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/plans-overview-en.jpg) |
+| [![The property: the house and the garden house, each with its own roof](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/plans-site-en.jpg)](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/plans-site-en.jpg) | [![A dashboard card for the kids' room only, its lights beside it](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/card-room-one-en.jpg)](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/card-room-one-en.jpg) | [![A tile per floor plan with lights, open windows, warmth and a water warning in the garden house](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/plans-overview-en.jpg)](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/plans-overview-en.jpg) |
 | Place the garage and the garden house beside the house once – every building with its own roof, lights and warnings. Tap a room and you are in it. | Tap rooms on a little map in the card dialog. One room opens with its devices beside it, "here" means that room, the tablet stays there. | A tile per building – and water in the garden house shows at the top while the house is open, one tap takes you there. |
 
 - 🏘️ **Several houses and flats** – a new floor plan in seconds: empty, a copy, or from a file. Switch at the top. Each has its own floors, rooms, devices and restore points; deleted ones wait 30 days in the bin.
@@ -99,10 +103,10 @@ Everything happens in the editor inside Home Assistant, with the 3D house growin
 
 | 1. Draw | 2. Furnish | 3. Link |
 |---|---|---|
-| [![Draw rooms with the 3D view beside the plan](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/editor-draw.jpg)](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/editor-draw.jpg) | [![The furniture library with pictures, room chips and sizes](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/editor-library-en.jpg)](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/editor-library-en.jpg) | [![The devices of a room's Home Assistant area](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/editor-devices-en.jpg)](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/editor-devices-en.jpg) |
+| [![Draw rooms with the 3D view beside the plan](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/editor-draw.jpg)](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/editor-draw.jpg) | [![The furniture library with pictures, room chips and sizes](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/editor-library-en.jpg)](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/editor-library-en.jpg) | [![The devices of a room's Home Assistant area](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/editor-devices-en.jpg)](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/editor-devices-en.jpg) |
 | Rooms as rectangles or free shapes – walls, corners and measures follow by themselves. Doors, windows, stairs, roofs and the garden come from the same toolbar. | Pick furniture by room and kind, each with a picture and its size. Resize freely – legs and arms stay as they are. | Each room takes its Home Assistant area: lights, blinds, sensors and media are found and placed with one tap. From then on the house is live. |
 
-Not drawing at all? The **[import page](https://neonplan3d.mastershort.de/import/)** turns Sweet Home 3D, iPhone LiDAR scans (RoomPlan), CAD (DXF), Blender/SketchUp models (glTF, OBJ, STL), Floorplanner and Valetudo robot maps into a NeonPlan plan – in your browser. Or let an AI write it with [this template](https://github.com/Mastershort/neonplan3d/blob/main/docs/ai-import.md).
+Not drawing at all? The **[import page](https://neonplan3d.mastershort.de/import/)** turns Sweet Home 3D, iPhone LiDAR scans (RoomPlan), CAD (DXF), Blender/SketchUp models (glTF, OBJ, STL), Floorplanner and Valetudo robot maps into a NeonPlan plan – in your browser. Or let an AI write it with [this template](https://github.com/tobsen1302/neonplan3d/blob/main/docs/ai-import.md).
 
 **Build once, show it everywhere:** the editor in the sidebar is where you build the house. To show it, add the dashboard card `custom:neonplan3d-card` anywhere – or build a **card template** in the editor and just pick it on the tablet. Change the template later, and every tablet showing it follows.
 
@@ -114,55 +118,55 @@ Not drawing at all? The **[import page](https://neonplan3d.mastershort.de/import
 
 | | |
 |---|---|
-| ![The wall view: a wall from the front with its furniture and measures](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/wall-view.jpg) | **A real plan editor in Home Assistant** – floors, rooms as rectangles or free shapes, automatic walls with clean corners, free-standing partitions, sloping walls, doors, windows, glass walls, garage doors, stairs and floor openings. The **wall view** shows each wall from the front for placing to the centimetre. |
-| ![A farmhouse with house, barn and extension, each with its own roof](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-roof-sections.jpg) | **Roofs of every kind** – gable, hip, half-hip, pyramid, mansard, pent, flat and parapet; roof parts turned at any angle for wings and extensions, dormers, cross gables, carports, roof windows. Cellars sink into the ground with light wells. |
-| ![A kitchen built from pieces in the wall view](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/wall-blocks-en.jpg) | **Furniture and lamps** – 80 built-in models in a library with pictures and sizes, ready-made room sets, furniture blocks you build from pieces, lamps that light their room in their own colour. |
+| ![The wall view: a wall from the front with its furniture and measures](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/wall-view.jpg) | **A real plan editor in Home Assistant** – floors, rooms as rectangles or free shapes, automatic walls with clean corners, free-standing partitions, sloping walls, doors, windows, glass walls, garage doors, stairs and floor openings. The **wall view** shows each wall from the front for placing to the centimetre. |
+| ![A farmhouse with house, barn and extension, each with its own roof](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-roof-sections.jpg) | **Roofs of every kind** – gable, hip, half-hip, pyramid, mansard, pent, flat and parapet; roof parts turned at any angle for wings and extensions, dormers, cross gables, carports, roof windows. Cellars sink into the ground with light wells. |
+| ![A kitchen built from pieces in the wall view](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/wall-blocks-en.jpg) | **Furniture and lamps** – 80 built-in models in a library with pictures and sizes, ready-made room sets, furniture blocks you build from pieces, lamps that light their room in their own colour. |
 
 ### 💡 Live 3D and control
 
 | | |
 |---|---|
-| ![The room panel with all devices of the room](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-room-panel.jpg) | **Tap, swipe, hold** – tap a lamp to switch it, swipe to dim or move a blind, hold for colours and slats. A tap on a room opens its **room panel** with every device of the area, scenes first, ⏻ Everything off and 🧹 Vacuum this room. |
-| ![The quick menu of a light with its colours](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-quickmenu.jpg) | **Everything at hand** – quick menus for lights and blinds, the ⭐ central menu for all lights and blinds, favourites and your own buttons, a "Where is …?" search, doors swinging and windows tilting with their sensors. |
-| ![Walking through the house at eye level](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/walk.jpg) | **Walk through your house** at eye level with keys or a touch stick – the house lives on around you. |
-| ![The sun's arc with sunrise and sunset and the house's shadow](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-sun-path.jpg) | **Sun and night** – a glowing arc shows the sun's way today, the house's shadow wanders with it, sunlight falls through the windows; at night lit rooms throw their light onto the lawn. |
-| ![The garden at night with its lights](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-garden.jpg) | **The garden too** – lawns, terraces, paths, beds, hedges, fences with gates that open, pergolas, pools and garden lights. |
+| ![The room panel with all devices of the room](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-room-panel.jpg) | **Tap, swipe, hold** – tap a lamp to switch it, swipe to dim or move a blind, hold for colours and slats. A tap on a room opens its **room panel** with every device of the area, scenes first, ⏻ Everything off and 🧹 Vacuum this room. |
+| ![The quick menu of a light with its colours](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-quickmenu.jpg) | **Everything at hand** – quick menus for lights and blinds, the ⭐ central menu for all lights and blinds, favourites and your own buttons, a "Where is …?" search, doors swinging and windows tilting with their sensors. |
+| ![Walking through the house at eye level](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/walk.jpg) | **Walk through your house** at eye level with keys or a touch stick – the house lives on around you. |
+| ![The sun's arc with sunrise and sunset and the house's shadow](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-sun-path.jpg) | **Sun and night** – a glowing arc shows the sun's way today, the house's shadow wanders with it, sunlight falls through the windows; at night lit rooms throw their light onto the lawn. |
+| ![The garden at night with its lights](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-garden.jpg) | **The garden too** – lawns, terraces, paths, beds, hedges, fences with gates that open, pergolas, pools and garden lights. |
 
 ### 📷 Your devices, alive
 
 | | |
 |---|---|
-| ![A car parked in the garage](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-garage.jpg) | **Everything you have** – TVs, washers and dishwashers glow while they run, radiators while they heat, the robot vacuum drives its lanes, the car appears on its spot while it is home, awnings run with their cover, bins, mailboxes, switches, sockets and the Wi-Fi access point. |
-| ![Looking through a camera into the room](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-camera-through.jpg) | **Cameras** – on walls and ceilings with their field of view, red while they see motion, snapshots and the live view with a tap. With Camera Cockpit: look through the camera, the camera wall, motion trails and detection pins. |
-| ![The live director at the front door](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-live-director.jpg) | **Live director** (Camera Cockpit) – the doorbell rings and the wall tablet flies to the front door and looks through its camera; a finished washer or a warning shows the same way. |
-| ![Pets: a cat on the sofa, a dog and a cat on the stairs, fish in the aquarium](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/pets.jpg) | **Fun packs, free** – pets that roam the house, Halloween decorations and the Winter & Christmas pack with fairy lights, snow and a New Year firework. |
+| ![A car parked in the garage](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-garage.jpg) | **Everything you have** – TVs, washers and dishwashers glow while they run, radiators while they heat, the robot vacuum drives its lanes, the car appears on its spot while it is home, awnings run with their cover, bins, mailboxes, switches, sockets and the Wi-Fi access point. |
+| ![Looking through a camera into the room](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-camera-through.jpg) | **Cameras** – on walls and ceilings with their field of view, red while they see motion, snapshots and the live view with a tap. With Camera Cockpit: look through the camera, the camera wall, motion trails and detection pins. |
+| ![The live director at the front door](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-live-director.jpg) | **Live director** (Camera Cockpit) – the doorbell rings and the wall tablet flies to the front door and looks through its camera; a finished washer or a warning shows the same way. |
+| ![Pets: a cat on the sofa, a dog and a cat on the stairs, fish in the aquarium](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/pets.jpg) | **Fun packs, free** – pets that roam the house, Halloween decorations and the Winter & Christmas pack with fairy lights, snow and a New Year firework. |
 
 ### ⚡ Energy
 
 | | |
 |---|---|
-| ![Solar fields and roof windows on the roof](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/release-1.8.0.jpg) | **Solar on the roof, free** – solar fields on any roof face, the wall or the ground, inverters, batteries, wallboxes and meters with live values, the energy balance from Home Assistant's energy dashboard. With **Energy Pro** the energy flows through glowing cables, holograms show day curves and self-sufficiency. |
+| ![Solar fields and roof windows on the roof](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/release-1.8.0.jpg) | **Solar on the roof, free** – solar fields on any roof face, the wall or the ground, inverters, batteries, wallboxes and meters with live values, the energy balance from Home Assistant's energy dashboard. With **Energy Pro** the energy flows through glowing cables, holograms show day curves and self-sufficiency. |
 
 ### 🎙️ Voice and Live Presence
 
 | | |
 |---|---|
-| ![Voice control: a speech bubble over the house](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-voice.jpg) | **Talk to your house** – "Show the living room", "Where is the washing machine?", "Vacuum here". A tablet knows the room it hangs in, so "Lights on" means that room. Anything else goes to Home Assistant's Assist. Free. |
-| ![People shown as glowing figures in their rooms](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-locate.jpg) | **Who is where – without Bermuda** – people, phones and key tags room by room from the Shelly plugs, ESPHome proxies and Bluetooth adapter you already have. Learn a room in 90 seconds, see everyone as a glowing figure, get a room sensor per device, ask "Where is my iPhone?". Free. |
+| ![Voice control: a speech bubble over the house](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-voice.jpg) | **Talk to your house** – "Show the living room", "Where is the washing machine?", "Vacuum here". A tablet knows the room it hangs in, so "Lights on" means that room. Anything else goes to Home Assistant's Assist. Free. |
+| ![People shown as glowing figures in their rooms](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-locate.jpg) | **Who is where – without Bermuda** – people, phones and key tags room by room from the Shelly plugs, ESPHome proxies and Bluetooth adapter you already have. Learn a room in 90 seconds, see everyone as a glowing figure, get a room sensor per device, ask "Where is my iPhone?". Free. |
 
 ### 📱 Dashboards and wall tablets
 
 | | |
 |---|---|
-| ![A dashboard card with only two rooms](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/card-rooms-two-en.jpg) | **The dashboard card** – one floor, the whole house, a few rooms or the whole property, every look and option in a visual editor. **Card templates** are built once in the editor; every tablet showing one follows its changes live. |
-| ![A portrait wall tablet with the room panel](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/tablet-portrait-room.jpg) | **Made for the wall** – kiosk mode with idle return, night dimming and a slow orbit as screensaver, portrait layout, full screen, "Reload screens" for every tablet after an update. |
-| ![A warning banner with the room pulsing red](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/view-alert-banner.jpg) | **Safety, always free** – smoke, gas, CO, water, alarm, a window open in the rain and power outages pulse in their room, with a banner and a jump there – now from every floor plan. |
+| ![A dashboard card with only two rooms](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/card-rooms-two-en.jpg) | **The dashboard card** – one floor, the whole house, a few rooms or the whole property, every look and option in a visual editor. **Card templates** are built once in the editor; every tablet showing one follows its changes live. |
+| ![A portrait wall tablet with the room panel](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/tablet-portrait-room.jpg) | **Made for the wall** – kiosk mode with idle return, night dimming and a slow orbit as screensaver, portrait layout, full screen, "Reload screens" for every tablet after an update. |
+| ![A warning banner with the room pulsing red](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/view-alert-banner.jpg) | **Safety, always free** – smoke, gas, CO, water, alarm, a window open in the rain and power outages pulse in their room, with a banner and a jump there – now from every floor plan. |
 
 ### 🌈 The classic looks
 
 | Neon | Blueprint | Day |
 |---|---|---|
-| ![The neon look](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/look-neon.jpg) | ![The blueprint look](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/look-blueprint.jpg) | ![The day look](https://raw.githubusercontent.com/Mastershort/neonplan3d/main/docs/images/look-day.jpg) |
+| ![The neon look](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/look-neon.jpg) | ![The blueprint look](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/look-blueprint.jpg) | ![The day look](https://raw.githubusercontent.com/tobsen1302/neonplan3d/main/docs/images/look-day.jpg) |
 
 Plus **Auto** (day while the sun is up, neon after sunset), an accent colour of your choice – and since 3.1 [many more styles](#-new-in-31--your-home-in-every-style).
 
@@ -224,7 +228,7 @@ Bought packs and modules are signed for your installation and update by themselv
 
 ## 📦 Installation
 
-[![Open your Home Assistant instance and open the NeonPlan 3D repository in the Marketplace.](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=Mastershort&repository=neonplan3d&category=integration)
+[![Open your Home Assistant instance and open the NeonPlan 3D repository in the Marketplace.](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=tobsen1302&repository=neonplan3d&category=integration)
 
 1. Click the button above, or open **Settings → Marketplace** and search for **NeonPlan 3D** (it is in the default list). On Home Assistant before 2026.11, use HACS the same way.
 2. Install **NeonPlan 3D** and restart Home Assistant.
@@ -260,10 +264,10 @@ NeonPlan 3D stores the plans, their pictures and the packs in Home Assistant's `
 
 ## 💬 Ideas, questions and bugs
 
-- **Ideas and voting:** [Discussions → Ideas](https://github.com/Mastershort/neonplan3d/discussions/categories/ideas)
-- **Questions:** [Discussions → Q&A](https://github.com/Mastershort/neonplan3d/discussions/categories/q-a) or the [Discord](https://discord.gg/SSdVVFsev7)
-- **Bugs:** [open an issue](https://github.com/Mastershort/neonplan3d/issues/new/choose)
-- **What changed:** [Changelog](https://github.com/Mastershort/neonplan3d/blob/main/CHANGELOG.md) · [Releases](https://github.com/Mastershort/neonplan3d/releases)
+- **Ideas and voting:** [Discussions → Ideas](https://github.com/tobsen1302/neonplan3d/discussions/categories/ideas)
+- **Questions:** [Discussions → Q&A](https://github.com/tobsen1302/neonplan3d/discussions/categories/q-a) or the [Discord](https://discord.gg/SSdVVFsev7)
+- **Bugs:** [open an issue](https://github.com/tobsen1302/neonplan3d/issues/new/choose)
+- **What changed:** [Changelog](https://github.com/tobsen1302/neonplan3d/blob/main/CHANGELOG.md) · [Releases](https://github.com/tobsen1302/neonplan3d/releases)
 
 ## 🛠️ Development
 
@@ -279,15 +283,15 @@ npm run screenshot  # renders preview/index.html (invented demo data) with a loc
 - **Preview without Home Assistant:** open `preview/index.html` through any local web server.
 - **Deploy to a test instance:** create `deploy.local.json` with `{"target": "<config>/custom_components/neonplan3d"}` and run `npm run deploy` in `frontend/`.
 - **Python tests** run in CI with `pytest-homeassistant-custom-component`.
-- **Furniture pack format:** [docs/packs.md](https://github.com/Mastershort/neonplan3d/blob/main/docs/packs.md) (German).
+- **Furniture pack format:** [docs/packs.md](https://github.com/tobsen1302/neonplan3d/blob/main/docs/packs.md) (German).
 
 ## 📄 Licence
 
-MIT – see [LICENSE](https://github.com/Mastershort/neonplan3d/blob/main/LICENSE). "NeonPlan 3D" is the name of the original project by Mastershort; furniture packs and Pro add-ons sold in the shop are not part of this repository.
+MIT – see [LICENSE](https://github.com/tobsen1302/neonplan3d/blob/main/LICENSE). "NeonPlan 3D" is the name of the original project by Mastershort; furniture packs and Pro add-ons sold in the shop are not part of this repository.
 
 ## ☕ Support
 
-NeonPlan 3D is free. If you like it, you can buy me a coffee – or have a look at the packs in the shop: https://mastershort.de/en/neonplan3d/?lang=en<br>
-NeonPlan 3D ist kostenlos. Wenn es dir gefällt, freue ich mich über einen Kaffee ☕ – oder schau dir die Packs im Shop an: https://mastershort.de/neonplan3d/
+NeonPlan 3D was created by Mastershort. If you like it, support the original project – with a coffee or a pack from the shop: https://mastershort.de/en/neonplan3d/?lang=en<br>
+NeonPlan 3D stammt von Mastershort. Wenn es dir gefällt, unterstütze das Originalprojekt – mit einem Kaffee oder einem Pack aus dem Shop: https://mastershort.de/neonplan3d/
 
-[![PayPal](https://img.shields.io/badge/PayPal-Spenden-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=Z3G2VWKSK5VJL)
+[![PayPal](https://img.shields.io/badge/PayPal-Mastershort-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=Z3G2VWKSK5VJL)

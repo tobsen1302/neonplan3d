@@ -1,15 +1,23 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { hasFeature, manualUrl, shopUrl, unlockedFeatures } from "./features.ts";
+import { FORK_INCLUDED, hasFeature, manualUrl, shopUrl, unlockedFeatures } from "./features.ts";
 
 test("features come from installed packs that list them; unknown names are ignored", () => {
-  assert.deepEqual([...unlockedFeatures([])], []);
+  // the fork includes Household Pro without a pack
+  assert.deepEqual([...unlockedFeatures([])], [...FORK_INCLUDED]);
   const packs = [{ features: ["weather", "teleport"] }, { features: undefined }, { features: ["camera_cockpit"] }];
-  assert.deepEqual([...unlockedFeatures(packs)].sort(), ["camera_cockpit", "weather"]);
+  assert.deepEqual([...unlockedFeatures(packs)].sort(), ["camera_cockpit", "household", "weather"]);
   assert.equal(hasFeature("screens", [{ features: ["screens"] }]), true);
   assert.equal(hasFeature("screens", [{ features: ["screens"] }]), true);
   assert.equal(hasFeature("weather", [{ features: ["weather"] }]), true);
   assert.equal(hasFeature("camera_cockpit", [{ features: ["weather"] }]), false);
+});
+
+test("fork: Household Pro is unlocked without any pack", () => {
+  assert.deepEqual([...FORK_INCLUDED], ["household"]);
+  assert.equal(hasFeature("household", []), true);
+  assert.equal(hasFeature("household", [{ features: ["weather"] }]), true);
+  assert.equal(hasFeature("energy_pro", []), false);
 });
 
 test("time travel is a Pro add-on of its own with its section in the manual", () => {
