@@ -282,6 +282,7 @@ npm run screenshot  # renders preview/index.html (invented demo data) with a loc
 
 - **Preview without Home Assistant:** open `preview/index.html` through any local web server.
 - **Deploy to a test instance:** create `deploy.local.json` with `{"target": "<config>/custom_components/neonplan3d"}` and run `npm run deploy` in `frontend/`.
+- **A test copy next to the regular install:** `python tools/make_variant.py <config>/custom_components/neonplan3d_test` writes the integration as `neonplan3d_test` ("NeonPlan 3D Test") with its own plans, sidebar page, card (`custom:neonplan3d_test-card`), services and Assist intent – it runs beside `neonplan3d` without touching its data.
 - **Python tests** run in CI with `pytest-homeassistant-custom-component`.
 - **Furniture pack format:** [docs/packs.md](https://github.com/tobsen1302/neonplan3d/blob/main/docs/packs.md) (German).
 

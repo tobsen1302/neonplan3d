@@ -11,6 +11,8 @@ The first release of the fork.
 ### New (free in the fork)
 - **Household Pro included:** bins glow before their pickup and carry pickup tags, a mailbox glows while post lies in it, thirsty plants show themselves, appliances tell their time left, open fridge doors warn – and "Today in the household" lists it all. No pack or licence key needed.
 
+- **Test copy:** `tools/make_variant.py` builds the integration under its own name (`neonplan3d_test`), so a test version runs next to the regular one in the same Home Assistant.
+
 ### Changed
 - The fork is its own project: links, issue tracker, code owner and documentation point to `tobsen1302/neonplan3d`. The original's shop check, Discord release post and donation link are gone from the workflows; the HACS download check runs on demand only.
 
